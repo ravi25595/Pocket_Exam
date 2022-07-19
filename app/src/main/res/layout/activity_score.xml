@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ScoreActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="8dp"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:gravity="right"
+            android:orientation="vertical"
+            android:padding="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/total_questions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total : 50"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/correct_answers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Correct : 15"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/incorrect_answers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Incorrect : 15"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/attempted"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Attempted : 30"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/unAttempted"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unattempted : 20"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/score_background"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="150"
+                android:textAlignment="center"
+                android:textColor="@color/colorRed"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="153"
+                android:textAlignment="center"
+                android:textColor="@color/colorRed"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnWidth="40dp"
+        android:minHeight="40dp"
+        android:elevation="5dp"
+        android:horizontalSpacing="2dp"
+        android:verticalSpacing="2dp"
+        android:padding="2dp"
+        android:numColumns="auto_fit"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/doneBtn"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_corners"
+            android:text="Done"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+    </FrameLayout>
+</LinearLayout>

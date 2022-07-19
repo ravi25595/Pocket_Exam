@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "568156257170",
+    "firebase_url": "https://quizzing-app.firebaseio.com",
+    "project_id": "quizzing-app",
+    "storage_bucket": "quizzing-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568156257170:android:eb38131002dd1114849f4b",
+        "android_client_info": {
+          "package_name": "com.warrior.pocketexamadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "568156257170-efgqq2t3ea33u2ve0fo7psjfco077ait.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.warrior.pocketexamadmin",
+            "certificate_hash": "8100741d2ccdd0a425f9815965810dfeb1f1bb32"
+          }
+        },
+        {
+          "client_id": "568156257170-j52u179udqch2uqonr5ihkk70640pg3p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtZ2MgS14HBZvpvVo7ftQsvaBaoDo1vPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "568156257170-j52u179udqch2uqonr5ihkk70640pg3p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568156257170:android:f7491aecc08447a8849f4b",
+        "android_client_info": {
+          "package_name": "com.warrior.quizzingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "568156257170-oq6l0q4oqftmivkrjc3ivnfr5s8jjhi0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.warrior.quizzingapp",
+            "certificate_hash": "8100741d2ccdd0a425f9815965810dfeb1f1bb32"
+          }
+        },
+        {
+          "client_id": "568156257170-j52u179udqch2uqonr5ihkk70640pg3p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtZ2MgS14HBZvpvVo7ftQsvaBaoDo1vPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "568156257170-j52u179udqch2uqonr5ihkk70640pg3p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568156257170:android:25098245aa38f448849f4b",
+        "android_client_info": {
+          "package_name": "zyrosite.pocketexam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "568156257170-j52u179udqch2uqonr5ihkk70640pg3p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtZ2MgS14HBZvpvVo7ftQsvaBaoDo1vPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "568156257170-j52u179udqch2uqonr5ihkk70640pg3p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
